@@ -1,0 +1,69 @@
+/*  command slash makes comments */
+/* selectors go from top to bottom notice how we start with body bc it goes in order of precdence */
+/* 
+CSS Tricks great website for properties */
+/* 
+CSS Order matters, reads last line and applies it
+Class - applies proprties to all 
+#id - the same id can only be used once
+
+* this symbolizes all elements
+element such as h2
+elementm, element ex) h1, h2
+> Tag : Example h2 > P
+This will only apply to p tags with an h2 parent
+<h2> Home</h2?
+<p> hello</P>
+
+:hover
+:last-child only the last child of a class gets selected
+:first-child -> selects the first child of a class
+W3 school selectors explains it well!
+
+Summary 
+to get a tag within another tag its space seperated
+ h1 p
+ this lets us get the p tag within h1
+
+ ex2) #id p 
+ this gets the p tag within the id tag
+
+float - use for images
+any property we dont want to float from image must use clear
+
+*/
+
+body,html {
+    background: url('header.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+  h1{
+    font-size: 3rem;
+    color: antiquewhite;
+    /* padding: 300px 100px 50px 300px; */
+    
+  }
+  .btn
+  {
+    font-weight: 700;
+    border-radius: 50%;
+    text-transform: uppercase;
+  }
+
+
+  .btn-primary
+  {
+    background-color: brown;
+  }
+  
+  
+.btn-xl
+{
+      padding: 1rem 2rem;
+      
+}
+
+  
